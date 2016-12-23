@@ -1,0 +1,12 @@
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext
+profile_b:
+  suites:
+    default:
+      contexts: [ FeatureContext ]
+    suite_b:
+      contexts:
+        - FeatureContext
